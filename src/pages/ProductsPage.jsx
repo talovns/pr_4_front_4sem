@@ -72,6 +72,7 @@ export default function ProductsPage() {
                                     <div className="userMain">
                                         <div className="userName">{p.name}</div>
                                         <div className="userId">{p.category}</div>
+                                        <div className="userDescription">{p.description}</div>
                                         <div className="userAge">{p.price} ₽ (Склад: {p.stock})</div>
                                     </div>
                                     <div className="userActions">
